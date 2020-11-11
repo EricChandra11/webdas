@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<style type="text/css">
+		#h1{
+		color:#ff00ff;
+		font-family:Highlight LET,Vijaya}
+		#jcp{
+		color:#0000FF;
+		font-family:Highlight LET,Lucida Calligraphy}
+		#p{font-family:Highlight LET,MV Boli}
+		</style>
+        <title>FORMULIR RAPID TEST</title>
+		<body background="p.jpg">
+		<h1 id="h1" align=center>FORMULIR RAPID TEST</h1>
+		<marquee id="jcp">Jaga Jarak- Cuci Tangan - Pakai Masker</marquee>
+<form action="formulir.php" method="POST">
+			<fieldset>
+			<legend id="h1">FORMULIR RAPID TEST</legend>
+			<label id="p"> Nama Lengkap: </label>
+				<input type="text" name="Nama" placeholder="Tulis Nama Lengkap!!!!"/>
+			</p>
+			<p>
+			<label id="p">NIK: </label>
+				<input type="text" name="NIK" placeholder="Tulis Nomer NIK!!!!"/>
+			</p>
+			<p>
+			<label id="p">Tempat Lahir </label>
+				<input type="text" name="tempat" placeholder="Tulis Tempat Lahir!!!!"/>
+				<label id="p"> Tanggal Lahir: </label>
+				<input type="date" name="tanggal"/><p>
+				<label id="p">Umur</label>
+				<input type="number" min="1" max="100" name="umur"/>
+			</p>
+			<p>
+			<label id="p"> Lampirkan foto akte kelahiran: </label>
+				<input type="file" accept="image/*"/>
+			</p>
+			<p>
+			<label id="p"> Jenis Kelamin: </label>
+				<label id="p"><input type="radio" name="jenis_kelamin" value="laki-laki"/> Laki - Laki </label>
+				<label id="p"><input type="radio" name="jenis_kelamin" value="perempuan"/> Perempuan </label>
+			</p>
+			<p><label id="p">Alamat: </label>
+				<input type="text" name="alamat" placeholder="Tulis Alamat!!!!"/>
+		
+			<label id="p">Desa/Kel: </label>
+				<input type="text" name="desa" placeholder="Tulis desa!!!!"/>
+			</p>
+			<p><label id="p">Kecamatan: </label>
+				<input type="text" name="kecamatan" placeholder="Tulis Kecamatan!!!!"/>
+			<label id="p">Provinsi: </label>
+				<input type="text" name="Provinsi" placeholder="Tulis Provinsi!!!!"/>
+			</p>
+			<p><label id="p"> Email Aktif: </label>
+				<input type="email" name="email" placeholder="your email"../></b>
+			</p>
+			<p>
+			<label id="p"> Gejala yang di alami: </label>
+				<br><labe id="p"><input type="checkbox" name="gejala" value="demam > 38 derajat celcius"/> demam > 38 derajat celcius </label>
+				<label id="p"><input type="checkbox" name="gejala" value="sakit tenggorokan"/> sakit tenggorokan </label></p>
+				<label id="p"><input type="checkbox" name="gejala" value="sesak nafas"/> sesak nafas </label>
+				<label id="p"><input type="checkbox" name="gejala" value="batuk terus menerus"/> batuk terus menerus </label></p>
+			<p>
+			<label id="p"> Perkiraan Sebab: </label>
+				<br><label id="p"><input type="checkbox" name="sebab" value="Jalan Keluar Negeri"/> Jalan Keluar Negeri </label><p>
+				<label id="p"><input type="checkbox" name="sebab" value="Dekat dengan orang yg tertular covid-19"/> Dekat dengan orang yg tertular covid-19 </label></p>
+				<label id="p"><input type="checkbox" name="sebab" value="Berperilaku tidak bersih"/> Berperilaku tidak bersih </label></p>
+				<label id="p"><input type="checkbox" name="sebab" value="Tidak tahu sebabnya"/> Tidak tahu sebabnya </label>
+				<p>
+			<label id="p">Pekerjaan: </label>
+				<input type="text" name="pekerjaan" placeholder="Tulis pekerjaan!!!!"/>
+				<p>
+			<label id="p"> agama: </label>
+				<select name="agama">
+					<option>pilih agama</option>
+					<option value="islam"> Islam</option>
+					<option value="kristen"> Kristen</option>
+					<option value="katolik"> Katolik</option>
+					<option value="hindu"> Hindu</option>
+					<option value="budha"> Budha</option>
+				</select></p>
+						<label id="p">Rumah Sakit rujukan Covid-19 terdekat: </label>
+				<input type="text" name="rumah sakit" placeholder="Tulis Nama RS!!!!"/>
+		<p>
+				<input type="submit" name="submit" value="Send">
+				<marquee id="jcp">Jaga Jarak- Cuci Tangan - Pakai Masker</marquee>
+			</p><p>
+			<img align=center src="g.gif"height="300" width="900"/></p>
+			</fieldset>
+		</form>
+		</body>
+		
+	</head>
+</html>
